@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%; !important
+}
+
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 7rem;
+}
+p {
+    font-size: 2rem;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+#app {
+    border: black solid 0.3rem;
+    padding: 3rem;
+}
+
+.degree-section {
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.degree-section span {
+    font-size: 3rem;
+
+}

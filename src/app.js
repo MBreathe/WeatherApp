@@ -1,4 +1,4 @@
-import {renderPage} from "./landingPage.js";
+import {renderPage} from "./pages/landingPage.js";
 import { retrieveCityData, retrieveWeatherData, populatePage } from './funtions.js'
 
 export async function main() {

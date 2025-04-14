@@ -1,4 +1,4 @@
-import {main} from './app.js';
+import {main} from '../app.js';
 
 export function renderPage() {
     const containerMainEl = document.querySelector('#app');
